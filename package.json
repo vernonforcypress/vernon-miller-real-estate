@@ -1,0 +1,1 @@
+{"name":"vernon-miller-real-estate","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","build:production":"node scripts/build.mjs --production"}}

@@ -1,0 +1,19 @@
+{
+  "domain": "https://vernmillerhomes.com",
+  "approved": true,
+  "dre": "01968262",
+  "phone": "714-809-5658",
+  "email": "vernon@kathyzajac.com",
+  "brokerLicensedName": "The Real Estate Solution",
+  "bio": "Vernon Miller is a REALTOR® serving Orange County, Los Angeles County, and Riverside County, with deep roots in Cypress and neighboring communities. He has called Cypress home for more than 30 years. Licensed since 2014 and fluent in Japanese, Vernon specializes in first-time home buyers, residential selling, investment opportunities, and commercial real estate. He is affiliated with The Real Estate Solution and the Kathy Zajac Real Estate Team.",
+  "instagram": "https://www.instagram.com/vernon.realtor/",
+  "linkedin": "https://www.linkedin.com/in/vernmillerhomes",
+  "facebook": "https://www.facebook.com/vernonsellsoc/",
+  "officeAddress": {
+    "streetAddress": "6101 Ball Rd #201",
+    "addressLocality": "Cypress",
+    "addressRegion": "CA",
+    "postalCode": "90630",
+    "addressCountry": "US"
+  }
+}
