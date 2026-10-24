@@ -3,3 +3,5 @@
 .meet-vernon{display:grid;grid-template-columns:minmax(220px,380px) 1fr;gap:9%;align-items:center}.meet-vernon img{display:block;width:100%;height:auto;max-height:490px;object-fit:cover;object-position:center 25%;border-radius:140px 140px 0 0}.meet-vernon p{max-width:580px}.about-hero{display:grid;grid-template-columns:1.2fr .8fr;gap:8%;align-items:center}.about-portrait{width:100%;height:auto;max-height:560px;object-fit:cover;object-position:center 25%;border-radius:180px 180px 0 0;background:#fff}@media(max-width:850px){.meet-vernon,.about-hero{grid-template-columns:1fr;gap:30px}.meet-vernon img,.about-portrait{max-width:380px;justify-self:center}.about-portrait{max-height:480px}}
 
 .contact-links{display:flex;flex-direction:column;align-items:flex-start;gap:14px}.contact-links a{font-size:18px;overflow-wrap:anywhere;max-width:100%;padding-block:4px}
+
+.office-address{font-style:normal;font-size:16px;line-height:1.7;margin-top:24px}.office-address strong{font-weight:600}
