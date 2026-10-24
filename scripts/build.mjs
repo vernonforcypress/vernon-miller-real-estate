@@ -18,7 +18,7 @@ const pages=[
 ];
 const nav=[['buy','Buy'],['sell','Sell'],['communities','Communities'],['about','About'],['contact','Contact']];
 const link=(slug,label)=>`<a href="${slug?'./'+slug+'.html':'./index.html'}">${label}</a>`;
-const contact=ready?`<div class="contact-links"><a href="mailto:${esc(config.email)}">${esc(config.email)}</a><a href="tel:${esc(config.phone.replace(/[^+\d]/g,''))}">${esc(config.phone)}</a>${config.instagram?'<a href="'+esc(config.instagram)+'">Instagram · @vernon.realtor</a>':''}${config.linkedin?'<a href="'+esc(config.linkedin)+'">LinkedIn profile</a>':''}</div>`:'<p class="pending">Contact details are awaiting verification for launch.</p>';
+const contact=ready?`<div class="contact-links"><a href="mailto:${esc(config.email)}">${esc(config.email)}</a><a href="tel:${esc(config.phone.replace(/[^+\d]/g,''))}">${esc(config.phone)}</a>${config.instagram?'<a href="'+esc(config.instagram)+'">Instagram · @vernon.realtor</a>':''}${config.facebook?'<a href="'+esc(config.facebook)+'">Facebook · @vernonsellsoc</a>':''}${config.linkedin?'<a href="'+esc(config.linkedin)+'">LinkedIn profile</a>':''}</div>`:'<p class="pending">Contact details are awaiting verification for launch.</p>';
 const cards=(items)=>`<div class="cards">${items.map(([slug,n,t])=>`<a class="card" href="./${slug}.html"><span class="eyebrow">${n}</span><h3>${t}</h3><span class="arrow" aria-hidden="true">↗</span></a>`).join('')}</div>`;
 for(const [slug,title,desc,sub,body] of pages){
 const url=config.domain+'/'+(slug?slug+'.html':'');
